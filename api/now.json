@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "petgram-server-pabtab",
-  "alias": ["petgram-api"],
+  "alias": ["petgram-server-pabtab"],
   "builds": [{ "src": "index.js", "use": "@now/node" }],
   "routes": [{
     "headers": {

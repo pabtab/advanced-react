@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "petgram",
+  "name": "petgram-client-pabtab",
   "builds": [
     {
       "use": "@now/static-build",
