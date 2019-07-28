@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Button } from './styles'
 import { MdFavoriteBorder, MdFavorite } from 'react-icons/md'
 
@@ -11,4 +12,10 @@ export const FavButton = ({ liked, likes, onClick }) => {
       {likes} likes!
     </Button>
   )
+}
+
+FavButton.propTypes = {
+  liked: PropTypes.bool,
+  likes: PropTypes.number,
+  onClick: PropTypes.func
 }
